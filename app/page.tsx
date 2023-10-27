@@ -5,15 +5,21 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full lg:flex-row">
       <div className="max-w-3xl mt-52 grid flex-grow h-32 card rounded-box place-items-center">
-        <h1 className="text-white text-3xl">Hi I am Nour</h1>
-        <h1 className="text-white text-3xl">Software engineer</h1>
+        <h1 className="text-white text-3xl">Hi I am Nour,</h1>
+        <h1 className="mt-2 text-white text-3xl"> Software engineer</h1>
+        <div className="mt-4 p-3 text-center">
+          <h3 className="text-gray-400">
+            A software engineer that always asks the question why? Curiosity is
+            what drives me.
+            <br />
+            Top level gamer as well, choose the game, send an invite, I will
+            beat you !!
+            <br />
+            Love all kinds of sport as well.
+          </h3>
+        </div>
 
-        <h3 className="mt-4 text-gray-400">
-          Loreum epsum fdfkljahfd hfkjdshfdjsahf hkfkjdshfdsha khfkjadhsfkadhs
-          kjh kjfhsadf dsadasdsad asdsadasd sadas dasdas ads
-        </h3>
-
-        <Link className="btn bg-teal-900" href={"/projects"}>
+        <Link className=" mt-8 btn bg-teal-900 text-white" href={"/projects"}>
           View Projects
         </Link>
       </div>
