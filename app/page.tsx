@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
           kjh kjfhsadf dsadasdsad asdsadasd sadas dasdas ads
         </h3>
 
-        <button className="btn bg-teal-900">View Projects</button>
+        <Link className="btn bg-teal-900" href={"/projects"}>
+          View Projects
+        </Link>
       </div>
       <div className="grid flex-grow h-screen card rounded-box place-items-center">
         <div className="avatar h-full w-full">
