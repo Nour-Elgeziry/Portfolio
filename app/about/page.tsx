@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const About = () => {
   return (
@@ -17,7 +16,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="max-w-3xl mt-52 grid flex-grow h-32 card rounded-box place-items-center">
+      <div className="max-w-3xl mt-52 grid flex-grow h-32 card rounded-box place-items-center mr-14">
         <div>
           <h1 className="text-center text-white text-3xl">My story</h1>
           <div className="mt-4 p-3 text-center">
